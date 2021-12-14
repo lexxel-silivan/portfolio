@@ -1,0 +1,293 @@
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: cyan;
+}
+nav a:active{
+	color: cyan;
+}
+.active {
+  background-color: #cyan;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+header{
+	background-color: ##022937;
+}
+
+nav{
+	background-color: cyan;
+	margin: 0;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	text-align: center;
+	color: white;
+}
+
+.lexxel{
+	float: left;
+	max-width: 40%;
+	height: auto;
+	display: block;
+}
+
+h1{ 
+	font-size: 4em;
+	color: #022937;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+
+nav li{
+	display: inline;
+	padding: 5px 10px;
+	color: white;
+}
+
+main{
+	margin: 0 auto;
+    max-width: 1200px;
+	max-height: 1200px;
+	text-align: center;
+}
+
+form{
+	background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px grey;
+}
+
+label{
+	float: left;
+    width: 8em;
+    padding-right: 1em;
+}
+
+main h2{
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 1px;
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: black;
+}
+
+h3{
+	margin-top: 1px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
+blockquote{
+	margin: 30px p;
+	padding-left: 20px;
+	color: black;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+	
+label{
+	float: left;
+    width: 8em;
+    padding-right: 1em;
+}
+
+.lexxel{
+	float: left;
+	max-width: 40%;
+	height: auto;
+}
+
+h4{
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: black;
+	display: block;
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em:
+	margin-inline-end: 0px;
+	margin-inline-start: 0px;
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+	height: 400px;
+	width: 1200px;
+	text-align: center;
+}
+
+blockquote{
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+.container-fluid{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row{
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.fa-camera-retro{
+	font-size: 100px;
+	text-align: center;
+	display: block;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 130px;
+	height: 100px;
+}
+
+.footer-bottom{
+	padding: 0px;
+	color: black;
+	text-align: black;
+}
+
+.footer1000{
+	padding: 40px 0;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.gallery .preview{
+    width:100%;
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+}    
+
+gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+footer{
+	color: black;
+	background-color: cyan;
+	text-align: center;
+	padding: 15px;
+	margin: 40px 0 0 0;
+	display: block;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	body{
+		background-color: blue;
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

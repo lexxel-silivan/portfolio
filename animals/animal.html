@@ -1,0 +1,121 @@
+	<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Animal Photography!</title>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="photos.css">
+	</head>
+<body>
+<header>
+	<h2> Animal Photography!</h2>
+	
+</header>
+<nav>
+	<ul>
+		<li>
+			<a href="animal.html">Home</a>
+		</li>
+		<li>
+			<a href="animal.html">Photos</a>
+		</li>
+		<li>
+			<a href="animal.html">About</a>
+		</li>
+		<li>
+			<a href="animal.html">Contact</a>
+		</li>
+	</ul>
+</nav>
+<main> 
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-012">
+			<img src="images/adler2.jpg" height="400" width="1200" class="img-fluid"
+				alt="adler portrait">
+		</div>
+		<div class="col-sm-2">
+			<i class="fa fa-camera-retro" aria-hidden="true">
+			</i>
+		</div>
+		<div class="col-sm-10">
+			<blockquote>
+			<p>
+				The website features photographs of animals from Pixabay.com The key
+				to animal photography is patience.It can take a long time to get the 
+				right lighting and the best view of the animal. When photographing
+				animals, you do not have a lot of control...yuo need to wait for them.
+			</p>
+			</blockquote>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="gallery">
+				<div class="preview">
+					<img id="preview" src="images/sea2.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+               </div>
+				<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+					<img onclick="document.getElementById('preview').src = document.getElementById('img1').src"  id="img1" src="images/animal2.jpg" alt="" />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="images/bison2.jpg" alt=""  />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/deer2.jpg" alt="" />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/fox2.jpg" alt="" />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/hedgehog2.jpg" alt=""  />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/lizard2.jpg" alt="" />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/otter2.jpg" alt="" />
+					<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/rabbit2.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</main>
+
+<footer>
+<div class="row footer100">
+	<div class="col-sm-6">
+		<h4>Web Design Exercise</h4>
+			<p>Animal photography is a website exercise on image galleries available
+			on"
+			<a href="https://webdevstudents.com">WebDevStudents.com</a>.
+			The image are royalty-free photos from pixabay.com. JavaScripts was
+			used to make the photo gallery, and Booststrap columns for responsive
+			layout.</p>
+	</div>
+	<div class="col-sm-6">
+		<h4>Connect with me!</h4>
+		<a href="https://www.facebook.com/profile.php?id=100012017386031">
+			<p>
+				<i class="fa fa-facebook-square"></i>
+				Facebook
+			</P>
+		</a>
+		<a href="https://www.instagram.com/lexxel_silivan_guitar/">
+			<p>
+				<i class="fa fa-instagram"></i>
+				Instagram
+			</p>
+		</a>
+		<a href="lexxel.silivan@gmail.com">
+			<p>
+				<i class="fa fa-envelope"></i>
+				Email Me 
+			</p>
+		</a>
+	</div>
+</div>
+	<div class="footer-bottom">
+	<small>@2021 Animal Photography. </small>
+	</div>
+</footer>
+<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

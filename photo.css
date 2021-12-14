@@ -1,0 +1,373 @@
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: white;
+}
+nav a:active{
+	color: white;
+}
+main h2{
+	color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+}
+
+nav li {
+  float: left;
+  color: black;
+}
+
+li{
+	color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: cyan;
+}
+
+li a{
+	  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.about{
+	float: left;
+}
+
+.home{
+	font-weight: bold;
+}
+
+nav ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff2cc;
+	color: white;
+}
+
+header{
+	background-color: #fff2cc;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;	
+	text-shadow: 3px 3px 3px #ababab;
+}
+
+header h1{
+	background-color: #ffe599;
+}
+
+h1{
+	background-color: #fff2cc;
+}
+
+h4{
+	text-align: center;
+}
+
+main{
+	margin: 0 auto;
+    max-width: 1000px;
+	padding: 10px;
+}
+
+form{
+	background-color: #efefef;
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px grey;
+}
+
+label{
+	float: left;
+    width: 8em;
+    padding-right: 1em;
+}
+
+main h2{
+	text-align: center; 
+}
+
+h2{
+	margin-bottom: 1px;
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: black;
+}
+
+h3{
+	margin-top: 1px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+
+blockquote{
+	margin: 30px p;
+	padding-left: 20px;
+	color: black;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.logo{
+	float: left;
+}
+
+.web{
+	text-align: center;
+	margin-left: 0px 0px 0px 30px;
+}
+
+.lexxel{
+	float: left;
+	max-width: 40%;
+	height: auto;
+	display: block;
+}
+
+
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+	
+label{
+	float: left;
+    width: 8em;
+    padding-right: 1em;
+}
+
+canvas{
+	background-color: #f1f1f1;
+	margin: 0 auto;
+	display: block;
+	background-image: url(images/clouds.jpg);
+	border: 3px solid #800080;
+	box-shadow: 2px 2px 6px black;
+}
+
+h1{ 
+	font-size: 4em;
+	color: #022937;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+
+.resume h3{
+	font-size: 28px;
+}
+
+.game-controls{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+
+h4{
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: black;
+	display: block;
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em:
+	margin-inline-end: 0px;
+	margin-inline-start: 0px;
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+	height: 400px;
+	width: 1200px;
+	text-align: center;
+}
+
+blockquote{
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+.container-fluid{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer-bottom{
+	padding: 20px;
+	text-align: center;
+}
+
+.row{
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.dog{
+	border: 3px solid black;
+}
+
+.animal{
+	border: 3px solid black;
+}
+
+.fa-camera-retro{
+	font-size: 100px;
+	text-align: center;
+	display: block;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 130px;
+	height: 100px;
+}
+
+.footer-bottom{
+	padding: 5px;
+	color: black;
+	text-align: black;
+}
+
+.footer1000{
+	padding: 40px 0;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+footer p{
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+footer small{
+	font-size: 80%;
+	height: 10px;
+	padding: 10%;
+}
+
+footer{
+	color: white;
+	background-color: cyan;
+	text-align: center;
+	padding: 0px;
+	margin: 60px 0 0 0;
+	display: block;
+	height: 160px;
+	border-top: 2px solid black;
+}
+
+.resume h2{
+	font-size: 36px;
+	text-align: center;
+}
+
+.logo{
+	text-align: center;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+	body{
+		background-color: blue;
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
